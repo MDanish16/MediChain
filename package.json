@@ -1,0 +1,17 @@
+{
+  "name": "medichain-root",
+  "version": "1.0.0",
+  "description": "MediChain — Blockchain-Based Medicine Supply Chain & Anti-Counterfeit Verification System",
+  "scripts": {
+    "start:backend": "cd backend && npm start",
+    "start:frontend": "cd frontend && npm run dev",
+    "seed": "cd backend && npm run seed",
+    "test:chaincode": "cd blockchain/chaincode/medichain && npm test",
+    "test:backend": "cd backend && npm test",
+    "network:up": "bash blockchain/network/scripts/startNetwork.sh",
+    "network:deploy": "bash blockchain/network/scripts/deployChaincode.sh",
+    "network:down": "bash blockchain/network/scripts/stopNetwork.sh",
+    "network:reset": "bash blockchain/network/scripts/resetDemo.sh"
+  }
+}
+

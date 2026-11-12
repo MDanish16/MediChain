@@ -1,0 +1,25 @@
+{
+  "name": "medichain",
+  "version": "1.0.0",
+  "description": "MediChain Pharmaceutical Supply Chain Smart Contract",
+  "main": "index.js",
+  "engines": {
+    "node": ">=18",
+    "npm": ">=9"
+  },
+  "scripts": {
+    "start": "fabric-chaincode-node start",
+    "test": "mocha test --recursive"
+  },
+  "dependencies": {
+    "fabric-contract-api": "^2.5.4",
+    "fabric-shim": "^2.5.4"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "sinon": "^15.0.1",
+    "sinon-chai": "^3.7.0"
+  }
+}
+
